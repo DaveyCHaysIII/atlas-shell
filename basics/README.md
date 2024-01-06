@@ -4,3 +4,4 @@ This is a legend of all the scripts in this folder:
 1-listit: lists all files and directories in the current directory (ls)
 2-bring_me_home: go back to user's home directory (cd)
 3-listfiles: lists files in the long format (ls -l)
+4-listmorefiles: list files, including hidden, in the long format (ls -al)
