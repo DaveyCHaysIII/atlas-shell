@@ -7,3 +7,4 @@ This is a legend of all the scripts in this folder:
 4-listmorefiles: list files, including hidden, in the long format (ls -al)
 5-listfilesdigitonly: list files, including hidden, in the long format, with group ID's n stuff (ls -anl)
 6-firstdirectory: makes a new directory in the /tmp directory (mkdir)
+7-movethatfile: moves a file from /tmp/ to /tmp/my_first_directory (mv)
