@@ -9,3 +9,5 @@ This is a legend of all the scripts in this folder:
 6-firstdirectory: makes a new directory in the /tmp directory (mkdir)
 7-movethatfile: moves a file from /tmp/ to /tmp/my_first_directory (mv)
 8-firstdelete: deletes the betty file (rm)
+9-firstdirdelete: deletes the /tmp/my_first_directory dir (rmdir)
+10-back: goes back a directory (cd ..)
