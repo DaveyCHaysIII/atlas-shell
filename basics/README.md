@@ -11,3 +11,4 @@ This is a legend of all the scripts in this folder:
 8-firstdelete: deletes the betty file (rm)
 9-firstdirdelete: deletes the /tmp/my_first_directory dir (rmdir)
 10-back: goes back a directory (cd ..)
+11-lists: list a buncha directories (ls -a /./ /../ /boot/)
