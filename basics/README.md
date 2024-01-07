@@ -1,16 +1,20 @@
-This is a legend of all the scripts in this folder: 
+This is shell basics! Below is a legend of all the commands used in this project:
 
-0-current_working_directory: prints current working directory (pwd)
-1-listit: lists all files and directories in the current directory (ls)
-2-bring_me_home: go back to user's home directory (cd)
-3-listfiles: lists files in the long format (ls -l)
-4-listmorefiles: list files, including hidden, in the long format (ls -al)
-5-listfilesdigitonly: list files, including hidden, in the long format, with group ID's n stuff (ls -anl)
-6-firstdirectory: makes a new directory in the /tmp directory (mkdir)
-7-movethatfile: moves a file from /tmp/ to /tmp/my_first_directory (mv)
-8-firstdelete: deletes the betty file (rm)
-9-firstdirdelete: deletes the /tmp/my_first_directory dir (rmdir)
-10-back: goes back a directory (cd ..)
-11-lists: list a buncha directories (ls -a /./ /../ /boot/)
-12-file_type: shows the file type (file)
-13-symbolic-link: links to a bin folder in current dir (ln)
+0- pwd
+1- ls
+2- cd
+3- ls -l
+4- ls -al
+5- ls -anl
+6- mkdir /tmp/my_first_directory
+7- mv /tmp/betty /tmp/my_first_directory/betty
+8- rm /tmp/my_first_directory/betty
+9- rmdir /tmp/my_first_directory
+10- cd -
+11- ls -al . .. /boot
+12- file /tmp/iamafile
+13- ln -s /bin/ls __ls__
+14- cp -n ./*.html ./../* //ignore last asterisk
+15- mv [A-Z]* /tmp/u* //ignore last asterisk
+16- rm *~* //ignore last asterisk
+17- mkdir -p welcome/to/school 
