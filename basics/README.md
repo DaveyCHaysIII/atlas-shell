@@ -12,3 +12,4 @@ This is a legend of all the scripts in this folder:
 9-firstdirdelete: deletes the /tmp/my_first_directory dir (rmdir)
 10-back: goes back a directory (cd ..)
 11-lists: list a buncha directories (ls -a /./ /../ /boot/)
+12-file_type: shows the file type (file)
