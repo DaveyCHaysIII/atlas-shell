@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#ls shenanagins
+
+files='./*'
+
+for file in $files
+do	
+echo "$file" | cut -d - -f 2
+done
