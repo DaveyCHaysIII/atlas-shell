@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#this script uses an 'until' loop to print 'Best School' 10 times to the terminal
+
+i=0
+until [ $i -ge 10 ]
+do 
+echo 'Best School'
+((i++))
+done
