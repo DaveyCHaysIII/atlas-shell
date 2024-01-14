@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 #ls shenanagins
 
-files='./*'
-
-for file in $files
+for file in *
 do	
 echo "${file#*-}"
 done
