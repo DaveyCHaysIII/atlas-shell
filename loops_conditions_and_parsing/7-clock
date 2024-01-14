@@ -3,12 +3,14 @@
 
 hours=1
 echo "Hour: 0"
-while [ $hours -le 12 ]; do
+while [ $hours -le 13 ]; do
 minutes=1
 while [ $minutes -lt 60 ]; do 
 echo "$minutes"
 ((minutes++))
 done 
+if [ $hours -ne 13 ]; then
 echo "Hour: $hours"
+fi
 ((hours++))
 done
