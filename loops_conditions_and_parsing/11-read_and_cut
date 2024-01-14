@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#this script parses the /etc/passwd file 
+
+while IFS=: read -r username _ uid _ _ home_path _; do
+echo "$username:$uid:$home_path"
+done < /etc/passwd
